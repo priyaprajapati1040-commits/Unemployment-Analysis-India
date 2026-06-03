@@ -3,10 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load Dataset
+
 df = pd.read_csv("Unemployment in India.csv")
 
-# First 5 rows
 print(df.head())
 print(df.info())
 
